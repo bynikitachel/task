@@ -1,0 +1,41 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .theme-title {
+        font-size: 2.6rem;
+        margin-bottom: 10px;
+    }
+    .interviewer,
+    .interview-date {
+        width: 100%;
+    }
+    video {
+        margin: 20px 0;
+    }
+    p {
+        width: 100%;
+    }
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    .order-button {
+        display: inline-block;
+        background-color: #e12248;
+        border: 1px solid transparent;
+        color: #fff;
+        border-radius: 8px;
+        font-size: 12px;
+        padding: 6px 12px;
+        margin: 5px;
+    }
+    .order-button:hover {
+        background-color: #ce5c73;
+    }
+    .order-button:active {
+        background-color: rgb(245, 157, 157);
+        color: #000;
+    }
+}

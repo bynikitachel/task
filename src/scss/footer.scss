@@ -1,0 +1,153 @@
+footer {
+    padding: 40px;
+    ul {
+        margin: 0 0 15px;
+        padding: 15px 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            .site-link {
+                background-image: url(https://multimedia.corprensa.com/la-prensa/assets/sprite_footer.png);
+                display: block;
+                margin: 0 10px 15px;
+            }
+            .corprensa {
+                background-position: -5px -405px;
+                height: 33px;
+                width: 131px;
+            }
+            .laprensa {
+                background-position: -5px -374px;
+                height: 31px;
+                width: 92px;
+            }
+            .laprensa:hover {
+                background-position: -5px -343px;
+            }
+            .midiario {
+                background-position: -5px -121px;
+                height: 26px;
+                width: 125px;
+            }
+            .midiario:hover {
+                background-position: -5px -95px;
+            }
+            .ellas {
+                background-position: -66px -701px;
+                height: 24px;
+                width: 61px;
+            }
+            .ellas:hover {
+                background-position: -5px -701px;
+            }
+            .mfinanciero {
+                background-position: -5px -27px;
+                height: 22px;
+                width: 103px;
+            }
+            .mfinanciero:hover {
+                background-position: -5px -5px;
+            }
+            .revistak {
+                background-position: -46px -49px;
+                height: 46px;
+                width: 41px;
+            }
+            .revistak:hover {
+                background-position: -5px -49px;
+            }
+            .contentstudio {
+                background-position: -5px -504px;
+                height: 33px;
+                width: 103px;
+            }
+            .contentstudio:hover {
+                background-position: -5px -471px;
+            }
+            .tustiquetes {
+                background-position: -5px -173px;
+                height: 26px;
+                width: 103px;
+            }
+            .tustiquetes:hover {
+                background-position: -5px -147px;
+            }
+            .peducativo {
+                background-position: -5px -780px;
+                height: 50px;
+                width: 74px;
+            }
+            .peducativo:hover {
+                background-position: -5px -725px;
+            }
+            .buscafacil {
+                background-position: -5px -301px;
+                height: 30px;
+                width: 93px;
+            }
+            .buscafacil:hover {
+                background-position: -5px -259px;
+            }
+            .clubprensa {
+                background-position: -79px -780px;
+                height: 55px;
+                width: 54px;
+            }
+            .clubprensa:hover {
+                background-position: -79px -725px;
+            }
+            .alamesa {
+                background-position: -5px -660px;
+                height: 41px;
+                width: 102px;
+            }
+            .alamesa:hover {
+                background-position: -5px -619px;
+            }
+            .f5pa {
+                background-position: -98px -301px;
+                height: 42px;
+                width: 36px;
+            }
+            .f5pa:hover {
+                background-position: -98px -259px;
+            }
+            .mtxmt {
+                background-position: -5px -229px;
+                height: 30px;
+                width: 97px;
+            }
+            .mtxmt:hover {
+                background-position: -5px -199px;
+            }
+            .impresaplus {
+                background-position: -5px -578px;
+                height: 41px;
+                width: 113px;
+            }
+            .impresaplus:hover {
+                background-position: -5px -537px;
+            }
+            .tiendapanama {
+                background-position: -5px -999px;
+                height: 56px;
+                width: 130px;
+            }
+            .tiendapanama:hover {
+                background-position: -5px -944px;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        ul {
+            justify-content: center;
+        }
+    }
+}
